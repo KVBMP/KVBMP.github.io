@@ -1,0 +1,96 @@
+
+.cont-full-menu{
+    background-color: #F9CED8;
+    width: 100%;
+    height: 120px;
+    float: left;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+    
+}
+
+.cont-full-menu p{
+    font-size: 20px;
+    font-family: "Cocogoose-Bold";
+}
+
+
+
+.cont-into-menu{
+    background-color: transparent;
+    width: auto;
+    height: 100px;
+    float: left;
+}
+
+.menu-logo{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.menu-logo:hover{
+    cursor: pointer;
+}
+
+.menu-logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.cont-menu{
+    background-color: transparent;
+    width: 550px;
+    height: 100%;
+    float: left;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+.menu{
+    background-color: transparent;
+    width: 150px;
+    height: 50px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px white solid;
+}
+
+.menu:hover{
+    cursor: pointer;
+    border: 2px rgb(255,126,165) solid;
+}
+
+.menu:hover p{
+    color: rgb(255,126,165);
+}
+
+.menu-selected{
+    border: 2px rgb(255,126,165) solid;
+}
+
+.menu-selected-p{
+    color: rgb(255,126,165);
+}
+
+.menu-NoSelected-p{
+    color: white;
+}
+

@@ -1,0 +1,88 @@
+body{
+    background-color: white;
+    background-image: url("../png/fondo1.svg");
+    background-repeat:repeat;
+    background-position: center;
+    background-size:contain;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar{
+    width: 16px;
+    background-color: #F9CED8;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color:  white;
+    border-radius: 8px;
+}
+
+html{
+    padding: 0px;
+    margin: 0px;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.cont-full{
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    float: left;
+    padding-top: 120px;
+}
+
+.titile{
+   /* background-color: #B1DDE6;*/
+    background-color: black;
+    width: 100%;
+    height: 42px;
+    float: left;
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index:99;
+}
+
+.titile p{
+    float: left;
+    height: 100%;
+    color: white;
+    font-size: 18px;
+    font-family: "Arial";
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    animation: tittle 2s 1;
+}
+
+@keyframes tittle{
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1);
+    }
+}
+
+@font-face {
+    font-family: "Cocogoose-Bold";
+    src: url("../fonts/Cocogoose\ Pro-trial.ttf");
+}
+
+@font-face {
+    font-family: "Cocogoose-l";
+    src: url("../fonts/Cocogoose\ Pro\ Light-trial.ttf");
+}
