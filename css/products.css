@@ -207,7 +207,11 @@
 }
 
 
-@media (max-width:400px){
+@media (max-width:500px){
+    .products-home:hover{
+        box-shadow: none;
+    }
+
     .cont-into-products{
         flex-direction: column;
         justify-content: space-between;
