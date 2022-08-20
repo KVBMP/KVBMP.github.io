@@ -53,6 +53,7 @@ p{
     justify-content: center;
     align-items: center;
     z-index:99;
+    overflow: hidden;
 }
 
 .titile p{
@@ -85,4 +86,33 @@ p{
 @font-face {
     font-family: "Cocogoose-l";
     src: url("../fonts/Cocogoose\ Pro\ Light-trial.ttf");
+}
+
+
+@media (max-width:710px){
+    .cont-full{
+        padding-top: 80px;
+    }
+
+    .titile{
+        top: 80px;
+    }
+
+    .titile p{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:540px){
+    .titile p{
+        font-size: 13px;
+    }
+}
+
+@media (max-width:440px){
+    .titile p{
+        font-size: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
