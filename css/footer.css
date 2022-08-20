@@ -31,6 +31,7 @@
 }
 
 .cont-footer p{
+    background-color: transparent;
     float: left;
     width: 100%;
     font-family: "Cocogoose-Bold";
@@ -163,15 +164,17 @@
 }
 
 @media (max-width:800px){
+    .cont-footer p{
+        font-size: 30px;
+    }
 
- 
+    .footer-contactUs-cont p{
+        font-size: 18px;
+    }
+
     .cont-full-footer{
         padding-top: 30px;
         padding-bottom: 30px;
-    }
-
-    .cont-footer p{
-        font-size: 20px;
     }
     
     .cont-footer:nth-child(1){
@@ -190,8 +193,9 @@
 }
 
 @media (max-width:600px){
+
     .footer-contactUs-cont p{
-        font-size: 13px;
+        font-size: 16px;
     }
 
     .contactUs i{
@@ -205,6 +209,9 @@
 }
 
 @media (max-width:500px){
+    .footer-contactUs-cont{
+        min-height: 42px;
+    }
 
     .contactUs i:hover{
         font-size: 40px;
@@ -232,10 +239,6 @@
         border-left: none;
         border-top: 2px white solid;
         margin-top: 15px;
-    }
-    
-    .cont-footer p{
-        font-size: 20px;
     }
 
     .cont-full-footer2 p{
