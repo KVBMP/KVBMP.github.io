@@ -2,7 +2,6 @@
     background-color: white;
     width: 100%;
     height: auto;
-    min-height: 400px;
     float: left;
     text-align: center;
     padding-top: 50px;
@@ -43,7 +42,6 @@
     background-color: transparent;
     width: 30%;
     height: auto;
-    min-height: 200px;
     float: left;
     overflow: hidden;
     text-align: center;
@@ -54,7 +52,6 @@
     background-color: transparent;
     width: 30%;
     height: auto;
-    min-height: 200px;
     float: left;
     overflow: hidden;
     text-align: center;
@@ -91,11 +88,12 @@
 
 }
 
+/* PAGE PRODUCTS */
+
 .cont-full-productsPage{
     background-color: white;
     width: 100%;
     height: auto;
-    min-height: 400px;
     float: left;
     text-align: center;
     padding-top: 92px;
@@ -121,7 +119,7 @@
 
 .subTittle-PageProducts{
     background-color: transparent;
-    width: auto;
+    width: 100%;
     height: auto;
     float: left;
     color: black;
@@ -131,6 +129,7 @@
     font-weight: 700;
     margin-top: 40px;
     padding-bottom: 10px;
+    overflow: hidden;
 }
 
 .cont-full-conts-products{
@@ -149,12 +148,10 @@
 .productsPage{
     background-color: transparent;
     filter: brightness(1.2);
-    width: calc(28vw - 40px);
+    width: calc(32vw - 20px);
     max-width: 300px;
-    min-width: 140px;
-    height: calc(27vw - 40px);
+    height: calc(32vw - 20px);
     max-height: 300px;
-    min-height: 140px;
     float: left;
     overflow: hidden;
 }
@@ -168,4 +165,40 @@
 .productsPage:hover{
     cursor: pointer;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width:710px){
+
+    .subTittle-PageProducts:nth-child(1){
+        margin-top: 0px;
+    }
+
+    .cont-into-productsPage{
+        margin-top: 20px;
+    }
+
+    .cont-full-productsPage{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .cont-full-productsPage{
+        padding-top: 72px;
+    }
+
+    .subtittle-products{
+        padding-top: 10px;
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+
+    .productsPage{
+        width: calc(32vw - 2px);
+        height: calc(32vw - 2px);
+    }
+
+    .subTittle-PageProducts{
+        font-size: 22px;
+    }
+    
 }
