@@ -2,7 +2,6 @@
     background-color: white;
     width: 100%;
     height: auto;
-    min-height:600px;
     float: left;
     text-align: center;
     padding-top: 92px;
@@ -28,10 +27,9 @@
 }
 
 .cont-pageContact{
-    background-color: transparent;
+    background-color: rebeccapurple;
     width: 100%;
     height: auto;
-    min-height: 500px;
     float: left;
     display: flex;
     justify-content: center;
@@ -44,7 +42,6 @@
     width: 100%;
     max-width: 700px;
     height: auto;
-    min-height: 400px;
     float: left;
     padding-left: 15px;
     padding-right: 15px;
@@ -103,3 +100,34 @@
     border: 2px rgb(255, 163, 212) solid;
 }
 
+@media (max-width:710px){
+
+    .cont-full-pageContact{
+        background-color: white;
+        padding-top: 72px;
+        padding-bottom: 30px;
+    }
+    
+    .subtittle-Contact{
+        font-size: 30px;
+    }
+
+    .cont-pageContact{
+        background-color: rebeccapurple;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .contact{
+        padding-bottom: 20px;
+    }
+
+    .contact input{
+        height: 30px;
+    }
+
+    .contact textarea{
+        min-height: 100px;
+    }
+
+}
