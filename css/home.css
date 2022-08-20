@@ -72,3 +72,32 @@
         top: calc( ( ( 100vh - 162px) /2 - 100px )) ;
     }
   }
+
+  @media (max-width:710px){
+
+    .cont-tittle-home{
+        top: calc( ( ( 100vh - 122px) /2 - 100px )) ;
+
+    }
+
+    .cont-tittle-home p{
+        font-size: 40px;
+    }
+
+    .cont-full-home{
+        height: calc(100vh - 122px);
+    }
+    
+  }
+
+  @media (max-width:400px){
+    .cont-tittle-home p{
+        font-size: 36px;
+    }
+  }
+
+  @media (max-width:300px){
+    .cont-tittle-home p{
+        font-size: 30px;
+    }
+  }
