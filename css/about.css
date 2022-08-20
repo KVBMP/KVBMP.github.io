@@ -30,32 +30,6 @@
     padding-bottom: 10px;
 }
 
-@media (max-width:710px){
-
-    .cont-full-about{
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-    .subtittle-about{
-        font-size: 30px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-
-    .about{
-        margin-top: 10px;
-        padding-bottom: 10px;
-    }
-
-    .about-p1{
-        font-size: 18px;
-    }
-    
-    .about-p{
-        font-size: 15px;
-    }
-
-}
 
 
 
@@ -90,3 +64,29 @@
     justify-content: center;
 }
 
+@media (max-width:710px){
+
+    .cont-full-about{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .subtittle-about{
+        font-size: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .about{
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .about-p1{
+        font-size: 18px;
+    }
+    
+    .about-p{
+        font-size: 15px;
+    }
+
+}
