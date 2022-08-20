@@ -148,17 +148,30 @@
     height: 50px;
     float: left;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     overflow: hidden;
 }
 
 .cont-full-footer2 p{
     background-color: transparent;
-    width: auto;
-    text-align: center;
+    width: max-content;
     color: black;
     float: left;
     height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cont-full-footer2 a{
+    background-color: transparent;
+    width: auto;
+    float: left;
+    height: 100%;
+    color: black;
+    list-style: none;
+    margin-left: 2px;
+    text-align: center;
     display: flex;
     align-items: center;
 }
@@ -243,7 +256,11 @@
 
     .cont-full-footer2 p{
         font-size: 12px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 10px;
+        padding-right: 0px;
+    }
+
+    .cont-full-footer2 a{
+        padding-right: 0px;
     }
 }
