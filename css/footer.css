@@ -233,6 +233,10 @@
         border-top: 2px white solid;
         margin-top: 15px;
     }
+    
+    .cont-footer p{
+        font-size: 20px;
+    }
 
     .cont-full-footer2 p{
         font-size: 12px;
