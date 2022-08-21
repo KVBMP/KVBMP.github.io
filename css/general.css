@@ -88,6 +88,11 @@ p{
     src: url("../fonts/Cocogoose\ Pro\ Light-trial.ttf");
 }
 
+@font-face {
+    font-family: "Valentine";
+    src: url("../fonts/Valentine\ Soulmate.ttf");
+}
+
 
 @media (max-width:710px){
     .cont-full{
