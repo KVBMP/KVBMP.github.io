@@ -15,7 +15,6 @@
     animation-delay: 5s;
 }
 
-
 .cont-tittle-home{
     background-color: transparent;
     width: calc(100% - 80px);
@@ -46,7 +45,7 @@
       color: black;
   }
 
-.cont-full-art1{
+  .cont-full-art1{
       background-color: transparent;
       width: 100%;
       height: auto;
@@ -89,7 +88,7 @@
       padding-right: 20px;
   }
 
-.cont-art1-tittle h1{
+  .cont-art1-tittle h1{
       color: black;
       text-shadow: 0px 0px 4px white;
       text-align: center;
@@ -125,7 +124,7 @@
     }
   }
 
- @media (max-width:900px){
+  @media (max-width:900px){
     .cont-art1-tittle h1{
         font-size: 90px;
     }
