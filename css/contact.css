@@ -110,6 +110,7 @@
 }
 
 .cont-full-question h1{
+    font-family: "Cocogoose-l";
     padding-left: 15px;
     padding-right: 15px;
     text-align: center;
@@ -120,6 +121,7 @@
 }
 
 .cont-full-question p{
+    font-family: "Cocogoose-l";
     background-color: transparent;
     padding-left: 15px;
     padding-right: 15px;
