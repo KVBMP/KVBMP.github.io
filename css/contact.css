@@ -100,6 +100,38 @@
     border: 2px rgb(255, 163, 212) solid;
 }
 
+.cont-full-question{
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    float: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.cont-full-question h1{
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    float: left;
+    width: 100%;
+    color: rgb(255,126,165);
+    font-weight: 800;
+}
+
+.cont-full-question p{
+    background-color: transparent;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 600;
+    font-size: 18px;
+    color: black;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+
 
 
 @media (max-width:710px){
