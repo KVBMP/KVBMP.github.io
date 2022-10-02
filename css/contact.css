@@ -1,5 +1,5 @@
 .cont-full-pageContact{
-    background-color: #f7eb6bc4;
+    background-color: white;
     width: 100%;
     height: auto;
     float: left;
@@ -101,7 +101,7 @@
 }
 
 .cont-full-question{
-    background-color: transparent;
+    background-color: #f7eb6bc4;
     width: 100%;
     height: auto;
     float: left;
