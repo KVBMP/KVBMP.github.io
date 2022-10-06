@@ -100,7 +100,7 @@
 .cont-into-productsPage{
     background-color: transparent;
     width: 100%;
-    max-width: 1000px;
+    max-width: 1150px;
     height: auto;
     float: left;
     margin-top: 40px;
@@ -128,10 +128,10 @@
     float: left;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     padding-top: 10px;
     padding-bottom: 10px;
-
 }
 
 .productsPage{
